@@ -1,0 +1,76 @@
+h2 {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 34px;
+}
+.subtitle_pricing {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 63px;
+}
+.pricing {
+    background-color: #E5E5E5;
+    padding: 80px 0;
+}
+.price {
+    border-bottom: 1px solid #E72424;
+}
+.card_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    width: 340px;
+}
+.list-name {
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+    padding: 15px 144px 8px;
+    text-align: center;
+}
+.list-price {
+    width: 100%;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 700;
+    font-size: 35px;
+    background-color: #333333;
+    color: #FFFFFF;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 26px 0 33px;
+}
+.list-life {
+    width: 100%;
+    background-color: #333333;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 17px 0 14px;
+}
+.list-life:hover {
+    background-color: #D98943;
+}
+.list {
+    width: 100%;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878B;
+    margin-bottom: 2px;
+    text-align: center;
+    padding: 10px 0 11px;
+}

@@ -1,2 +1,17 @@
 @import url("../css/awesome.css");
 @import url("../css/about.css");
+@import url("../css/pricing.css");
+
+* {
+    font-family: 'Open sans', sans-serif; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+    padding: 0 15px;
+}

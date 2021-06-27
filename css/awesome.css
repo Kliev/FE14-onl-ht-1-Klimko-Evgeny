@@ -1,30 +1,20 @@
-* {
-    font-family: Open sans, sans-serif; 
-    background-color: #FFFFFF;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-}
 p {
     color: #86878B;
     font-size: 14px; 
     font-weight: 400;
 }
-h2 {
+h3 {
     font-size: 20px;
     font-weight: 700;
     color: #333333;
 }
 .awesome {
+    background-color: #FFFFFF;
     padding: 100px 0 109px 0;
 }
-.container {
-    max-width: 1170px;
-    margin: auto;
-}
 .awesome_title {
-    padding-bottom: 36px;
+    margin-bottom: 36px;
+    text-align: center;
 }
 .awesome_texttitle {
     font-family: 'Raleway', sans-serif;
@@ -34,7 +24,7 @@ h2 {
     margin-bottom: 25px;
 }
 .line {
-    max-width: 64px;
+    width: 64px;
     border-bottom: 1px solid #D98943;
     margin: 0 auto;
     margin-bottom: 30px;
@@ -43,35 +33,25 @@ h2 {
     display: flex;
     justify-content:space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .wrapp_img {
     width: 70px;
     height: 70px;
     border: 1px solid #D98943;
-    padding: 20px 23px;
     border-radius: 50%;
     margin: auto;
-    margin-bottom: 30px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
-.craft {
-    padding: 21px 15px;
-}
-.item_text {
-    color: #000000;
+.item {
+    width: 350px;
+    text-align: center;
 }
 .item_title {
     margin-bottom: 16px;
-}
-.item_design {
-    width: 350px;
-    margin-right: 32px;
-}
-.item_craft {
-    width: 350px;
-    margin-right: 32px;
-}
-.item_customize {
-    width: 350px;
 }
 
 
