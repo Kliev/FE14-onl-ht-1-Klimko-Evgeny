@@ -1,0 +1,23 @@
+.footer {
+    background-color: #000000;
+    padding: 30px 0 15px 0;
+}
+.footer_icon_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18px;
+    margin-left: 30px;
+}
+.footer_item a {
+    color: #E2E2E2;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.footer_text_content {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}

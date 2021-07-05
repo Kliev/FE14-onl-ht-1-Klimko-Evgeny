@@ -1,0 +1,30 @@
+.social {
+    padding: 14px 0 17px 0;
+    background-color: #F8EFEF;
+}
+.social_text {
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 14px;
+}
+.social_subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    color: #86878B;
+}
+.social_wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_icon_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_item a {
+    font-size: 42px;
+    color: #86878B;
+    margin-left: 66px;
+}
