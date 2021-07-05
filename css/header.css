@@ -7,16 +7,12 @@ header {
     font-size: 30px;
     font-weight: 400;
     color: #fff ;
+    text-transform: uppercase;
 }
 .text_logo::after {
     content: 'IT';
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    font-weight: 400;
     color: #EC7979;
 }
-
-
 .header_wrapp {
     display: flex;
     justify-content: space-between;
@@ -37,6 +33,14 @@ header {
     font-size: 15px;
     font-weight: 600;
     color: rgba(255, 255, 255, 0.7);
+    border-left: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+    display: block;
+}
+.nav_link:hover {
+    border-left: 2px solid rgb(0, 255, 255);
+    border-bottom: 2px solid rgb(0, 255, 255);
 }
 
 

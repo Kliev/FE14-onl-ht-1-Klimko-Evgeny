@@ -3,16 +3,21 @@
     padding: 30px 0 15px 0;
 }
 .footer_icon_row {
+    max-width: 317px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     margin-bottom: 18px;
-    margin-left: 30px;
+
 }
 .footer_item a {
     color: #E2E2E2;
     font-size: 20px;
-    margin-right: 30px;
+    transition: 0.2s;
+}
+.footer_item a:hover {
+    color: tomato;
 }
 
 .footer_text_content {

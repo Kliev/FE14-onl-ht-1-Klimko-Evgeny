@@ -2,6 +2,9 @@
     padding: 14px 0 17px 0;
     background-color: #F8EFEF;
 }
+.title_social {
+    max-width: 365px;
+}
 .social_text {
     font-size: 20px;
     font-weight: 700;
@@ -18,13 +21,20 @@
     justify-content: space-between;
     align-items: center;
 }
+.social_icon {
+    width: 684px;
+}
 .social_icon_row {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 684px;
 }
 .social_item a {
     font-size: 42px;
     color: #86878B;
-    margin-left: 66px;
+    transition: 0.2s;
+}
+.social_item a:hover {
+    color: red;
 }
