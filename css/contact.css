@@ -28,10 +28,11 @@
 .contact_form_wrapp {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 69px;
+    margin: 0 -15px 69px;
 }
 .contact_form {
     width: 478px;
+    margin: 0 15px;
 }
 .contact_form_input {
     display: block;
@@ -66,6 +67,7 @@
 .contact_textarea_form {
     height: 170px;
     width: 478px;
+    margin: 0 15px;
 }
 .contact_textarea {
     height: 100%;

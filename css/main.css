@@ -4,6 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    width: 100vw;
 }
 .main_screen::after {
     content: '';
@@ -96,7 +97,7 @@
 }
 .form_input {
     display: block;
-    width: 100%;
+    width: 252px;
     border: none;
     outline: none;
     border-bottom: 1px solid #BDBDBD;

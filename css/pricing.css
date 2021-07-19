@@ -30,14 +30,14 @@ h2 {
 .card_wrapper {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+    margin: 0 -15px;
 }
 .card_pricing {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     align-items: center;
     width: 340px;
+    margin: 0 15px;
 }
 .list-name {
     font-size: 20px;

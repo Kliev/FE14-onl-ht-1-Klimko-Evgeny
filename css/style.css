@@ -9,6 +9,7 @@
 @import url("../css/main.css");
 @import url("../css/contact.css");
 @import url("../css/tabs.css");
+@import url("../css/adaptive.css");
 * {
     font-family: 'Open sans', sans-serif; 
     margin: 0;
